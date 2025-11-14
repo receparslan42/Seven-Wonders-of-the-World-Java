@@ -33,11 +33,9 @@ LICENSE
 ```
 
 ## Screenshots
-| List Screen | Detail Screen |
-|-------------|---------------|
+| List Screen                                 | Detail Screen                                   |
+|---------------------------------------------|-------------------------------------------------|
 | ![List Screen](screenshots/list_screen.jpg) | ![Detail Screen](screenshots/detail_screen.jpg) |
-
-> Images are stored under `screenshots/` and referenced relatively so they render on GitHub.
 
 ## Getting Started
 ### Prerequisites
