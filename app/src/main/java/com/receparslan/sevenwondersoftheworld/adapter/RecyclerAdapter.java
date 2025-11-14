@@ -35,7 +35,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         holder.binding.wonderIDTextView.setText(String.valueOf(position + 1));
         holder.binding.wonderNameTextView.setText(wonderArrayList.get(position).getName());
         holder.itemView.setOnClickListener(view -> {
-            Wonder wonder = wonderArrayList.get(holder.getAdapterPosition());
+            Wonder wonder = wonderArrayList.get(position);
             Intent intent = new Intent(holder.itemView.getContext(), DetailActivity.class);
             intent.putExtra("wonderImage", wonder.getImage());
             intent.putExtra("wonderName", wonder.getName());
